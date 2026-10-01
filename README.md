@@ -53,3 +53,7 @@ Quick start is above, but before this ships as a real service you need the bits 
 **Creator Delivery SMS Gate: SMS (required for real sending)**
 - **Creator Delivery SMS Gate:** Most carriers and regions won't deliver without a **pre-approved template and signature**. Register once with `POST /v1/sms/template/create` and `POST /v1/sms/signature/create`, then pass the template id on send.
 - **Creator Delivery SMS Gate:** Sandbox numbers might work without that; production traffic will be dropped.
+
+## Further reading
+
+- [SMS OTP Delivery Can Fail After Sender Registration (A Signup Runbook)](docs/sms-otp-delivery-can-fail-after-sender-registrati-1txo6k.md)
