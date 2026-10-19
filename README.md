@@ -65,3 +65,7 @@ Quick start is above. For a real deployment you'll also need: the details below 
 **Creator Delivery SMS Gate: SMS (required for real sending)**
 - **Creator Delivery SMS Gate:** Many carriers and regions require a **pre-approved template and signature** before delivery. Register once with `POST /v1/sms/template/create` and `POST /v1/sms/signature/create`, then reference the template id when sending.
 - **Creator Delivery SMS Gate:** Sandbox or test numbers may work without it; production traffic usually will not.
+
+## Further reading
+
+- [Email Deliverability Provider Comparison — API Alternatives, Domain Verification, Suppression Evidence](docs/email-deliverability-provider-comparison-api-alte-1pgysu.md)
